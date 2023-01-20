@@ -1,0 +1,169 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height:100vh;
+    width:auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.container{
+    position: relative;
+}
+
+.sub{
+    position: absolute;
+    top:70px;
+    left:10px;
+    text-decoration: underline;
+    color: grey;
+}
+
+.title{
+    position: absolute;
+    top:65px;
+    left:550px;
+    text-decoration: underline;
+}
+
+.img1{
+    position: absolute;
+    height:15px;
+    width:15px;
+    top:70px;
+    right:40px;
+}
+
+.info{
+    position: relative;
+}
+
+.info h1{
+    position: absolute;
+    top:150px;
+    left:20px;
+}
+
+#para1{
+    position: absolute;
+    top:200px;
+    width:800px;
+    height:200px;
+    left:20px;
+}
+
+.info hr{
+    position: absolute;
+    top:260px;
+    left:20px;
+    width:65%;
+    border: 3px solid rgb(245, 242, 242);
+}
+
+#para2{
+    position: absolute;
+    width:800px;
+    height:200px;
+    top:270px;
+    left:20px;
+}
+
+.author{
+    position: absolute;
+    height:200px;
+    width:300px;
+    background-color:rgb(245, 242, 242);
+    right:50px;
+    top:150px;
+    overflow: auto;
+}
+
+.author h4{
+    position: absolute;
+    top:10px;
+    left:120px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.author p{
+    position: absolute;
+    top:40px;
+    left:15px;
+    right:5px;
+    bottom:20px;
+    font-size: 16px;
+    text-indent: 40px;
+}
+
+.box{
+    position: absolute;
+    top:350px;
+    left:20px;
+    width:800px;
+    border:5px solid rgb(245, 242, 242);
+}
+
+#para4{
+    position: absolute;
+    top:430px;
+    left:20px;
+    width:800px;
+}
+
+.plot{
+    position:absolute;
+    top:500px;
+    left:20px;
+    width:800px;
+}
+
+.box2{
+    position: absolute;
+    width:800px;
+    left:20px;
+    top:700px;
+    border:5px solid rgb(245, 242, 242);
+}
+
+#link{
+    position: absolute;
+    top:790px ;
+    left:550px;
+    color: blue;
+}
+
+#outro{
+    position: absolute;
+    top: 831px; 
+    left:520px;
+}
+
+.archives{
+    position: absolute;
+    height:100px;
+    width:120px;
+    right:210px;
+    top:400px;
+}
+
+.archives a{
+    color: blue;
+}
+
+.elsewhere{
+    position: absolute;
+    height:100px;
+    width:60px;
+    right:270px;
+    top:600px;
+
+}
+
+.elsewhere a{
+    color: blue;
+}
